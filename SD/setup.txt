@@ -1,0 +1,31 @@
+
+### SETUP FILE FOR THE ASCLEPIOS SENSOR BOARD ###
+
+### Wifi setup ###
+#ssid: wifi_id
+#password: wifi_password
+
+### Mission log number ###
+#log: 12
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
