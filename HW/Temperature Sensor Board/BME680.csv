@@ -1,0 +1,38 @@
+"Source:","/Users/quentin/Documents/Asclepios/HW/Temperature Sensor Board /BME680.kicad_sch"
+"Date:","Wednesday, March 08, 2023 at 02:31:07 PM"
+"Tool:","Eeschema (6.0.8-1)-1"
+"Generator:","/Applications/KiCad/KiCad.app/Contents/SharedSupport/plugins/bom_csv_grouped_by_value.py"
+"Component Count:","15"
+
+"Individual Components:"
+
+"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet","Description","Height","Manufacturer_Name","Manufacturer_Part_Number","Mouser Part Number","Mouser Price/Stock"
+"","","C1","100nF","Device:C","Capacitor_SMD:C_0603_1608Metric","~","","","","","",""
+"","","C2","100nF","Device:C","Capacitor_SMD:C_0603_1608Metric","~","","","","","",""
+"","","IC1","BME680","BME680:BME680","BME680","https://datasheet.datasheetarchive.com/originals/distributors/DKDS-24/462907.pdf","Air Quality Sensors Environmental Sensor VOC IIR EMC","","BOSCH","BME680","262-BME680","https://www.mouser.co.uk/ProductDetail/Bosch-Sensortec/BME680?qs=v271MhAjFHjo0yA%2FC4OnDQ%3D%3D"
+"","","J1","Conn_01x04_Female","Connector:Conn_01x04_Female","Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical","~","","","","","",""
+"","","J2","Conn_01x04_Female","Connector:Conn_01x04_Female","Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical","~","","","","","",""
+"","","LED1","LB_Q39G-L2OO-35-1","LB_Q39G-L2OO-35-1:LB_Q39G-L2OO-35-1","LB_Q39G-L2OO-35-1:LEDC1608X40N","","Standard LEDs - SMD Blue, 470nm 45mcd, 5mA","0.4","OSRAM","LB Q39G-L2OO-35-1","720-LBQ39GL2N2351","https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/LB-Q39G-L2OO-35-1?qs=74fRo9GAWsxvZBH6a5xY%252BA%3D%3D"
+"","","LED2","LB_Q39G-L2OO-35-1","LB_Q39G-L2OO-35-1:LB_Q39G-L2OO-35-1","LB_Q39G-L2OO-35-1:LEDC1608X40N","","Standard LEDs - SMD Blue, 470nm 45mcd, 5mA","0.4","OSRAM","LB Q39G-L2OO-35-1","720-LBQ39GL2N2351","https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/LB-Q39G-L2OO-35-1?qs=74fRo9GAWsxvZBH6a5xY%252BA%3D%3D"
+"","","R1","4.7k","Device:R","Resistor_SMD:R_0603_1608Metric","~","","","","","",""
+"","","R2","4.7k","Device:R","Resistor_SMD:R_0603_1608Metric","~","","","","","",""
+"","","R3","100","Device:R","Resistor_SMD:R_0603_1608Metric","~","","","","","",""
+"","","R4","100","Device:R","Resistor_SMD:R_0603_1608Metric","~","","","","","",""
+"","","R5","4.7k","Device:R","Resistor_SMD:R_0603_1608Metric","~","","","","","",""
+"","","SJ1","SOLDERJUMPER","Adafruit BMP390-eagle-import:SOLDERJUMPER","Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm","","","","","","",""
+"","","SJ2","SOLDERJUMPER","Adafruit BMP390-eagle-import:SOLDERJUMPER","Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm","","","","","","",""
+"","","SJ3","SolderJumper_3_Open","Jumper:SolderJumper_3_Open","Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm","~","","","","","",""
+
+
+
+"Collated Components:"
+
+"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet","Description","Height","Manufacturer_Name","Manufacturer_Part_Number","Mouser Part Number","Mouser Price/Stock"
+"1","2","C1, C2","100nF","Device:C","Capacitor_SMD:C_0603_1608Metric","~","","","","","",""
+"2","1","IC1","BME680","BME680:BME680","BME680","https://datasheet.datasheetarchive.com/originals/distributors/DKDS-24/462907.pdf","Air Quality Sensors Environmental Sensor VOC IIR EMC","","BOSCH","BME680","262-BME680","https://www.mouser.co.uk/ProductDetail/Bosch-Sensortec/BME680?qs=v271MhAjFHjo0yA%2FC4OnDQ%3D%3D"
+"3","2","J1, J2","Conn_01x04_Female","Connector:Conn_01x04_Female","Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical","~","","","","","",""
+"4","2","LED1, LED2","LB_Q39G-L2OO-35-1","LB_Q39G-L2OO-35-1:LB_Q39G-L2OO-35-1","LB_Q39G-L2OO-35-1:LEDC1608X40N","","Standard LEDs - SMD Blue, 470nm 45mcd, 5mA","0.4","OSRAM","LB Q39G-L2OO-35-1","720-LBQ39GL2N2351","https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/LB-Q39G-L2OO-35-1?qs=74fRo9GAWsxvZBH6a5xY%252BA%3D%3D"
+"5","3","R1, R2, R5","4.7k","Device:R","Resistor_SMD:R_0603_1608Metric","~","","","","","",""
+"6","2","R3, R4","100","Device:R","Resistor_SMD:R_0603_1608Metric","~","","","","","",""
+"7","2","SJ1, SJ2","SOLDERJUMPER","Adafruit BMP390-eagle-import:SOLDERJUMPER","Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm","","","","","","",""
+"8","1","SJ3","SolderJumper_3_Open","Jumper:SolderJumper_3_Open","Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm","~","","","","","",""

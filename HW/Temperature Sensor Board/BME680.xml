@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/Users/quentin/Documents/Asclepios/HW/Temperature Sensor Board /BME680.kicad_sch</source>
+    <date>Wednesday, March 08, 2023 at 02:31:07 PM</date>
+    <tool>Eeschema (6.0.8-1)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>BME680.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: BME680.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4f6eebac-3a1b-4e31-b223-0446d74dc8c2</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: BME680.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>294f334e-6d48-4963-bfa8-cbe7b478bc51</tstamps>
+    </comp>
+    <comp ref="IC1">
+      <value>BME680</value>
+      <footprint>BME680</footprint>
+      <datasheet>https://datasheet.datasheetarchive.com/originals/distributors/DKDS-24/462907.pdf</datasheet>
+      <fields>
+        <field name="Description">Air Quality Sensors Environmental Sensor VOC IIR EMC</field>
+        <field name="Manufacturer_Name">BOSCH</field>
+        <field name="Manufacturer_Part_Number">BME680</field>
+        <field name="Mouser Part Number">262-BME680</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Bosch-Sensortec/BME680?qs=v271MhAjFHjo0yA%2FC4OnDQ%3D%3D</field>
+      </fields>
+      <libsource lib="BME680" part="BME680" description=""/>
+      <property name="Description" value="Air Quality Sensors Environmental Sensor VOC IIR EMC"/>
+      <property name="Height" value=""/>
+      <property name="Mouser Part Number" value="262-BME680"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Bosch-Sensortec/BME680?qs=v271MhAjFHjo0yA%2FC4OnDQ%3D%3D"/>
+      <property name="Manufacturer_Name" value="BOSCH"/>
+      <property name="Manufacturer_Part_Number" value="BME680"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: BME680.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1c49de17-fd82-4fb9-8e6a-22b4b2d271ba</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x04_Female</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x04_Female" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: BME680.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d7f2a610-01b2-45c1-a71b-b5697c02ef3c</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x04_Female</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x04_Female" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: BME680.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5631cbcb-7c79-4d19-a488-64232d284c55</tstamps>
+    </comp>
+    <comp ref="LED1">
+      <value>LB_Q39G-L2OO-35-1</value>
+      <footprint>LB_Q39G-L2OO-35-1:LEDC1608X40N</footprint>
+      <fields>
+        <field name="Description">Standard LEDs - SMD Blue, 470nm 45mcd, 5mA</field>
+        <field name="Height">0.4</field>
+        <field name="Manufacturer_Name">OSRAM</field>
+        <field name="Manufacturer_Part_Number">LB Q39G-L2OO-35-1</field>
+        <field name="Mouser Part Number">720-LBQ39GL2N2351</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/LB-Q39G-L2OO-35-1?qs=74fRo9GAWsxvZBH6a5xY%252BA%3D%3D</field>
+      </fields>
+      <libsource lib="LB_Q39G-L2OO-35-1" part="LB_Q39G-L2OO-35-1" description="Standard LEDs - SMD Blue, 470nm 45mcd, 5mA"/>
+      <property name="Description" value="Standard LEDs - SMD Blue, 470nm 45mcd, 5mA"/>
+      <property name="Height" value="0.4"/>
+      <property name="Mouser Part Number" value="720-LBQ39GL2N2351"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/LB-Q39G-L2OO-35-1?qs=74fRo9GAWsxvZBH6a5xY%252BA%3D%3D"/>
+      <property name="Manufacturer_Name" value="OSRAM"/>
+      <property name="Manufacturer_Part_Number" value="LB Q39G-L2OO-35-1"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: BME680.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0b379c60-5cb5-4159-8a2e-4de92aecb580</tstamps>
+    </comp>
+    <comp ref="LED2">
+      <value>LB_Q39G-L2OO-35-1</value>
+      <footprint>LB_Q39G-L2OO-35-1:LEDC1608X40N</footprint>
+      <fields>
+        <field name="Description">Standard LEDs - SMD Blue, 470nm 45mcd, 5mA</field>
+        <field name="Height">0.4</field>
+        <field name="Manufacturer_Name">OSRAM</field>
+        <field name="Manufacturer_Part_Number">LB Q39G-L2OO-35-1</field>
+        <field name="Mouser Part Number">720-LBQ39GL2N2351</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/LB-Q39G-L2OO-35-1?qs=74fRo9GAWsxvZBH6a5xY%252BA%3D%3D</field>
+      </fields>
+      <libsource lib="LB_Q39G-L2OO-35-1" part="LB_Q39G-L2OO-35-1" description="Standard LEDs - SMD Blue, 470nm 45mcd, 5mA"/>
+      <property name="Description" value="Standard LEDs - SMD Blue, 470nm 45mcd, 5mA"/>
+      <property name="Height" value="0.4"/>
+      <property name="Mouser Part Number" value="720-LBQ39GL2N2351"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/LB-Q39G-L2OO-35-1?qs=74fRo9GAWsxvZBH6a5xY%252BA%3D%3D"/>
+      <property name="Manufacturer_Name" value="OSRAM"/>
+      <property name="Manufacturer_Part_Number" value="LB Q39G-L2OO-35-1"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: BME680.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9f738a90-0ee6-4a0e-869a-6bf423bbff0f</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: BME680.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dbed016a-8335-4b65-aa77-32fe2af20afe</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: BME680.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dd1f31f4-2253-4095-ab25-4727ae83b2db</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: BME680.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cce89b27-0750-414d-b3c1-31b64fa94e36</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: BME680.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9dc8b2f4-c29a-401b-95d6-609e192aba38</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: BME680.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ed72ecb3-dfe7-49dd-a165-d02af3310edb</tstamps>
+    </comp>
+    <comp ref="SJ1">
+      <value>SOLDERJUMPER</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <libsource lib="Adafruit BMP390-eagle-import" part="SOLDERJUMPER" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: BME680.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e290b4c4-c510-48e8-9197-50085245dd6a</tstamps>
+    </comp>
+    <comp ref="SJ2">
+      <value>SOLDERJUMPER</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <libsource lib="Adafruit BMP390-eagle-import" part="SOLDERJUMPER" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: BME680.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dcb05fc3-b457-4eeb-9084-8d6928fb57e1</tstamps>
+    </comp>
+    <comp ref="SJ3">
+      <value>SolderJumper_3_Open</value>
+      <footprint>Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_3_Open" description="Solder Jumper, 3-pole, open"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: BME680.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>85a6c7ff-5d05-486d-ab38-297fa398e6c8</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Adafruit BMP390-eagle-import" part="SOLDERJUMPER">
+      <fields>
+        <field name="Reference">SJ</field>
+        <field name="Value">SOLDERJUMPER</field>
+        <field name="Footprint">Adafruit BMP390:SOLDERJUMPER_ARROW_NOPASTE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="BME680" part="BME680">
+      <docs>https://datasheet.datasheetarchive.com/originals/distributors/DKDS-24/462907.pdf</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">BME680</field>
+        <field name="Footprint">BME680</field>
+        <field name="Datasheet">https://datasheet.datasheetarchive.com/originals/distributors/DKDS-24/462907.pdf</field>
+        <field name="Description">Air Quality Sensors Environmental Sensor VOC IIR EMC</field>
+        <field name="Mouser Part Number">262-BME680</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Bosch-Sensortec/BME680?qs=v271MhAjFHjo0yA%2FC4OnDQ%3D%3D</field>
+        <field name="Manufacturer_Name">BOSCH</field>
+        <field name="Manufacturer_Part_Number">BME680</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND_1" type="passive"/>
+        <pin num="2" name="CSB" type="passive"/>
+        <pin num="3" name="SDI" type="passive"/>
+        <pin num="4" name="SCK" type="passive"/>
+        <pin num="5" name="SDO" type="passive"/>
+        <pin num="6" name="VDDIO" type="passive"/>
+        <pin num="7" name="GND_2" type="passive"/>
+        <pin num="8" name="VDD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x04_Female">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04_Female</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="SolderJumper_3_Open">
+      <description>Solder Jumper, 3-pole, open</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SolderJumper*Open*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">SolderJumper_3_Open</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="C" type="passive"/>
+        <pin num="3" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="LB_Q39G-L2OO-35-1" part="LB_Q39G-L2OO-35-1">
+      <description>Standard LEDs - SMD Blue, 470nm 45mcd, 5mA</description>
+      <fields>
+        <field name="Reference">LED</field>
+        <field name="Value">LB_Q39G-L2OO-35-1</field>
+        <field name="Footprint">LEDC1608X40N</field>
+        <field name="Description">Standard LEDs - SMD Blue, 470nm 45mcd, 5mA</field>
+        <field name="Height">0.4</field>
+        <field name="Mouser Part Number">720-LBQ39GL2N2351</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/LB-Q39G-L2OO-35-1?qs=74fRo9GAWsxvZBH6a5xY%252BA%3D%3D</field>
+        <field name="Manufacturer_Name">OSRAM</field>
+        <field name="Manufacturer_Part_Number">LB Q39G-L2OO-35-1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Adafruit BMP390-eagle-import">
+      <uri>/Users/quentin/Documents/Xplore 2023/Drone/Electronics/Sensors/Barometer/Adafruit BMP390/Adafruit BMP390-eagle-import.kicad_sym</uri>
+    </library>
+    <library logical="BME680">
+      <uri>/Users/quentin/Documents/Xplore 2023/Drone/Electronics/KiCAD Components Symbols/BME680.lib</uri>
+    </library>
+    <library logical="Connector">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Jumper">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Jumper.kicad_sym</uri>
+    </library>
+    <library logical="LB_Q39G-L2OO-35-1">
+      <uri>/Users/quentin/Documents/Xplore 2023/Drone/Electronics/KiCAD Components Libs/LB_Q39G-L2OO-35-1/LB_Q39G-L2OO-35-1.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="IC1" pin="2" pinfunction="CSB" pintype="passive"/>
+      <node ref="IC1" pin="6" pinfunction="VDDIO" pintype="passive"/>
+      <node ref="IC1" pin="8" pinfunction="VDD" pintype="passive"/>
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="SJ1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="2" name="/GPIO_LED">
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="SJ2" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="3" name="/SCL">
+      <node ref="IC1" pin="4" pinfunction="SCK" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="4" name="/SDA">
+      <node ref="IC1" pin="3" pinfunction="SDI" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+    </net>
+    <net code="5" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="IC1" pin="1" pinfunction="GND_1" pintype="passive"/>
+      <node ref="IC1" pin="7" pinfunction="GND_2" pintype="passive"/>
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="LED1" pin="1" pintype="passive"/>
+      <node ref="LED2" pin="1" pintype="passive"/>
+      <node ref="SJ3" pin="3" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="6" name="Net-(IC1-Pad5)">
+      <node ref="IC1" pin="5" pinfunction="SDO" pintype="passive"/>
+      <node ref="SJ3" pin="2" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="7" name="Net-(LED1-Pad2)">
+      <node ref="LED1" pin="2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+    </net>
+    <net code="8" name="Net-(LED2-Pad2)">
+      <node ref="LED2" pin="2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+    </net>
+    <net code="9" name="Net-(R3-Pad1)">
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="SJ1" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="10" name="Net-(R4-Pad1)">
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="SJ2" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="11" name="Net-(R5-Pad2)">
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="SJ3" pin="1" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="12" name="unconnected-(J2-Pad1)">
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive+no_connect"/>
+    </net>
+    <net code="13" name="unconnected-(J2-Pad2)">
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive+no_connect"/>
+    </net>
+    <net code="14" name="unconnected-(J2-Pad4)">
+      <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive+no_connect"/>
+    </net>
+  </nets>
+</export>
